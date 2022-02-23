@@ -116,7 +116,11 @@ second part start
 second part end
 =================
 */
-
+/*
+=================
+3rd part start
+=================
+*/
 .develop {
   height: 500px;
   padding-top: 10%;
@@ -124,7 +128,6 @@ second part end
 }
 .develop-half {
   width: 40%;
-
   margin-left: 7%;
 }
 .develop-half img {
@@ -138,4 +141,35 @@ second part end
 .develop-half p {
   padding-bottom: 5%;
   line-height: 25px;
+}
+
+/*
+=================
+3rd part end
+=================
+*/
+/*
+=================
+4th part start
+=================
+*/
+
+.community {
+  height: 500px;
+  display: flex;
+}
+.community-half {
+  width: 40%;
+  margin-left: 10%;
+}
+.community-half h2 {
+  font-size: 30px;
+  padding-bottom: 5%;
+}
+.community-half p {
+  padding-bottom: 5%;
+  line-height: 25px;
+}
+.community-half img {
+  width: 80%;
 }
