@@ -193,6 +193,11 @@ input {
   border-radius: 5px;
   border: none;
 }
+textarea {
+  height: 200px;
+  width: 50%;
+  margin-left: 5%;
+}
 .btn-primary {
   background-color: #ff5959;
   padding: 15px 35px;
