@@ -173,3 +173,41 @@ second part end
 .community-half img {
   width: 80%;
 }
+/*extra part*/
+.extra-part {
+  height: 600px;
+  margin-top: 5%;
+  background-color: #2e1ee0;
+  color: white;
+}
+.form-part {
+  margin-left: 5%;
+}
+.extra-part h1 {
+  text-align: center;
+  padding-bottom: 5%;
+}
+input {
+  width: 50%;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+.btn-primary {
+  background-color: #ff5959;
+  padding: 15px 35px;
+  text-transform: uppercase;
+}
+
+.footer-part {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10%;
+}
+.footer-part h2 {
+  padding-bottom: 10px;
+}
+.footer-color {
+  color: #ff5959;
+}
