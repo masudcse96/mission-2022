@@ -9,13 +9,10 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins&display=swap");
 body {
   font-family: "Poppins", sans-serif;
-}
-
-/*==================================*/
-.container {
   background: #e4cfcf;
 }
 
+/*==================================*/
 /*
 =================
 first part start
@@ -23,7 +20,7 @@ first part start
 */
 .stay-focused {
   display: flex;
-  height: 70vh;
+  height: 500px;
   padding-bottom: 20%;
 }
 .stay-focused h1 {
@@ -36,7 +33,7 @@ first part start
 .orange-color {
   color: #ffad5a;
 }
-.stay-focused img {
+.half-width img {
   width: 100%;
 }
 .half-width {
@@ -60,3 +57,62 @@ h1 {
   text-transform: uppercase;
   color: white;
 }
+/*
+=================
+first part end
+=================
+*/
+/*
+=================
+second part start
+=================
+*/
+.my-mission {
+  height: 500px;
+}
+.my-mission h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.blue-color {
+  color: #13103a;
+}
+
+.three-mission {
+  display: flex;
+}
+.one-thirt {
+  width: 30%;
+  margin: 2%;
+  border-radius: 15px;
+  padding-bottom: 5%;
+}
+.mission-bg {
+  background-color: #c1c5c5;
+  box-shadow: 10px 10px 40px gray;
+}
+.vission-bg {
+  background-color: #a09884;
+  box-shadow: 10px 10px 40px gray;
+}
+.goal-bg {
+  background-color: #a0a7a7;
+  box-shadow: 10px 10px 40px gray;
+}
+.one-thirt img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.one-thirt h3 {
+  padding: 5%;
+}
+.one-thirt p {
+  padding: 5%;
+}
+/*
+=================
+second part end
+=================
+*/
