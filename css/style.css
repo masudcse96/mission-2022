@@ -2,17 +2,61 @@
   margin: 0;
   padding: 0;
 }
-.container {
-  background: rgb(235, 230, 230);
+/*here is google font
+=====================================
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
 }
+
+/*==================================*/
+.container {
+  background: #e4cfcf;
+}
+
+/*
+=================
+first part start
+=================
+*/
 .stay-focused {
   display: flex;
   height: 70vh;
+  padding-bottom: 20%;
+}
+.stay-focused h1 {
+  padding-bottom: 3%;
+}
+.stay-focused p {
+  padding-bottom: 3%;
+}
+
+.orange-color {
+  color: #ffad5a;
 }
 .stay-focused img {
-  width: 80%;
+  width: 100%;
 }
 .half-width {
-  padding: 10%;
-  width: 50%;
+  width: 40%;
+  padding: 5% 10%;
+}
+h1 {
+  font-size: 50px;
+}
+.button-color {
+  background-color: #ff5959;
+}
+.btn {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 3%;
+}
+.btn a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
 }
