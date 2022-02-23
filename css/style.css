@@ -9,7 +9,7 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins&display=swap");
 body {
   font-family: "Poppins", sans-serif;
-  background: #e4cfcf;
+  background: #e6d2d2;
 }
 
 /*==================================*/
@@ -116,3 +116,26 @@ second part start
 second part end
 =================
 */
+
+.develop {
+  height: 500px;
+  padding-top: 10%;
+  display: flex;
+}
+.develop-half {
+  width: 40%;
+
+  margin-left: 7%;
+}
+.develop-half img {
+  width: 60%;
+  padding-left: 20%;
+}
+.develop-half h2 {
+  padding-bottom: 5%;
+  font-size: 30px;
+}
+.develop-half p {
+  padding-bottom: 5%;
+  line-height: 25px;
+}
