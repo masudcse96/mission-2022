@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background: rgb(235, 230, 230);
+}
+.stay-focused {
+  display: flex;
+  height: 70vh;
+}
+.stay-focused img {
+  width: 80%;
+}
+.half-width {
+  padding: 10%;
+  width: 50%;
+}
